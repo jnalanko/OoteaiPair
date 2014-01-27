@@ -7,7 +7,7 @@ Joonas Ylonen,   2
 Lauri Paatero,   2
 Olli Pulkkinen,  2
 Arto Heikkinen,  1
-Elina Toivanen,	 1
+Elina Toivanen,  1
 Eetu Erkkila,    1
 Janne Nikula,    1
 Jarmo Ahosola,   0
