@@ -1,0 +1,5 @@
+This script read a file containing a list of players with scores 
+(see test.txt for an example), and outputs a pairing according to the
+Ooteai league system.
+
+Usage: python OoteaiPair.py test.txt
