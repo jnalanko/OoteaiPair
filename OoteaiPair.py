@@ -15,7 +15,7 @@ for line in infile:
         continue
     tokens = line.split(',')
     name = tokens[0].strip()
-    score =  tokens[1].strip()
+    score =  int(tokens[1].strip())
     players.append((score,name))
 
 # Shuffle the players list and sort in descending order with respect to the scores.
@@ -32,7 +32,7 @@ while index < len(players):
     black = players[index]
     white = players[index+1]
     r = random()
-    if r > 0.5:
+    if r < 0.5:
         # Swap black and white
         temp = black
         black = white
